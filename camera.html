@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHONE</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./alarm.css" />
+    <link rel="stylesheet" href="./camera.css" />
+  </head>
+  <body>
+    <main>
+      <div class="phonr_container">
+        <div class="phone">
+          <div class="one_button">
+            <div class="one_button_1"></div>
+            <div class="one_button_2"></div>
+            <div class="one_button_3"></div>
+          </div>
+          <div class="phone_top">
+            <div class="phone_fixed">
+              <div class="oylana"></div>
+              <div class="scrren"></div>
+              <div id="time"></div>
+              <div class="antena">
+                <div class="antena_1"></div>
+                <div class="antena_2"></div>
+                <div class="antena_3"></div>
+              </div>
+              <div class="wifi">
+                <div class="wifi_1"></div>
+                <div class="wifi_2"></div>
+                <div class="wifi_3"></div>
+              </div>
+              <div class="battery">
+                <div class="battery_1"></div>
+                <div class="battery_2"></div>
+                <span class="charget"></span>
+              </div>
+            </div>
+          </div>
+          <div class="phone_main_1"></div>
+          <div class="phone_main_2"></div>
+          <div class="phone_main_3"></div>
+          <div class="phone_main_4"></div>
+          <div class="phone_main_5"></div>
+        </div>
+        <div class="camera">
+          <video id="camera" autoplay playsinline></video>
+          <div>
+            <button id="startButton"><div class="startButton_1"></div></button>
+            <button id="stopButton" disabled>O' ch i r i sh...</button>
+            <button id="captureButton" disabled>S a q l a sh...</button>
+          </div>
+          <canvas id="photo" style="display: none"></canvas>
+        </div>
+      </div>
+    </main>
+    <script src="./js/charget.js"></script>
+    <script src="./js/camera.js"></script>
+    <script src="./js/cilck.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

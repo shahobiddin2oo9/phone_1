@@ -1,0 +1,86 @@
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 100px auto;
+  max-width: 300px;
+  font-family: cursive;
+}
+.phonr_container-1 {
+  background-color: rgb(53, 53, 53) !important;
+  background-blend-mode: normal !important;
+  background-image: none !important;
+}
+
+h1 {
+  color: #333;
+}
+.one_button {
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 10011;
+  width: 40px;
+  background-color: rgba(154, 154, 154, 0.443);
+  border-radius: 100%;
+  height: 40px;
+  margin: 0 auto;
+}
+.clock {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input[type="time"] {
+  padding: 5px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.budilnik {
+  width: 160px;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+}
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#set-alarm-btn {
+  background-color: #28a745;
+}
+
+#clear-alarm-btn {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#status-message {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
